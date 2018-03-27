@@ -1,0 +1,4 @@
+2017-11-29 11:55:14  [ main:8685 ] - [ ERROR ]  发送邮件异常:javax.mail.AuthenticationFailedException: 535 Error: authentication failed
+
+2017-11-29 11:57:33  [ main:7556 ] - [ ERROR ]  发送邮件异常:javax.mail.AuthenticationFailedException: 535 Error: authentication failed
+

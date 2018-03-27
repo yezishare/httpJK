@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="接口" parallel="test" thread-count="1">
+        " thread-count="1">
+    <parameter name="platformName" value="webService" />
+    <!-- 定义测试模块，用test标签包围 -->
+
+    <test name="Login" preserve-order="true">
+        <packages>
+            <package name="com.longteng.testcase" />
+        </packages>
+    </test>
+
+    <listeners>
+        <!-- arrow插件实现用例失败重跑以及生成测试报告 -->
+        <listener class-name="com.longteng.framework.listener.MyTestListener" />
+        <!--<listener class-name="com.longteng.framework.report.template.ReportHtml" />-->
+    </listeners>
+
+</suite>
